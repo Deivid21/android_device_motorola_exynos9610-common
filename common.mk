@@ -260,6 +260,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     mcDriverDaemon
 
+# MindTheGapps
+$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
+
 # MotoActions
 PRODUCT_PACKAGES += \
     MotoActions \
